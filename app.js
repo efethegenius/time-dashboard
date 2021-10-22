@@ -18,13 +18,13 @@ btn.forEach(function (btn) {
     const styles = e.currentTarget.classList;
     if (styles.contains("daily")) {
       hours.textContent = "5hrs";
-      period.textContent = "Yesterday - 1hr";
+      period.textContent = "Yesterday - 7hrs";
       playHours.textContent = "1hr";
       playPeriod.textContent = "Yesterday - 2hrs";
       studyHours.textContent = "0hrs";
       studyPeriod.textContent = "Yesterday - 1hr";
-      exerciseHours.textContent = "1hrs";
-      exercisePeriod.textContent = "Yesterday - 1hrs";
+      exerciseHours.textContent = "1hr";
+      exercisePeriod.textContent = "Yesterday - 1hr";
       socialHours.textContent = "1hrs";
       socialPeriod.textContent = "Yesterday - 3hrs";
       selfCareHours.textContent = "0hrs";
