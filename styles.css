@@ -174,8 +174,6 @@
 @media screen and (max-width: 660px) {
   body {
     background-color: hsl(226, 43%, 10%);
-    display: flex;
-    align-items: center;
   }
   p,
   h1,
