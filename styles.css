@@ -171,7 +171,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 660px) {
   body {
     background-color: hsl(226, 43%, 10%);
   }
