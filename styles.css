@@ -1,0 +1,362 @@
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: hsl(226, 43%, 10%);
+  }
+
+  main {
+    /* border: 5px solid red; */
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin: 80px;
+  }
+
+  .all {
+    /* border: 3px solid green; */
+    margin-right: 10px;
+  }
+
+  .contact-container {
+    background-color: hsl(235, 46%, 20%);
+    width: 250px;
+    border-radius: 15px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .name-container {
+    background-color: hsl(246, 80%, 60%);
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+  }
+  .work-container {
+    background-color: hsl(15, 100%, 70%);
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+
+  .play-container {
+    background-color: hsl(195, 74%, 62%);
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+
+  .study-container {
+    background-color: hsl(348, 100%, 68%);
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+
+  .exercise-container {
+    background-color: hsl(145, 58%, 55%);
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px 10px;
+  }
+
+  .social-container {
+    background-color: hsl(264, 64%, 52%);
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px 10px;
+  }
+
+  .self-care-container {
+    background-color: hsl(43, 84%, 65%);
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px 10px;
+  }
+
+  .time-container {
+    background-color: hsl(235, 46%, 20%);
+    clear: right;
+    height: 180px;
+    border-radius: 15px;
+    position: relative;
+    top: -50px;
+    transition-property: background;
+    transition-duration: 1s;
+  }
+
+  .all-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid blue; */
+    padding-bottom: 10px;
+  }
+  .all-containers p,
+  h1,
+  h3 {
+    font-family: "Rubik", sans-serif;
+  }
+
+  .all-containers p {
+    font-weight: 300;
+  }
+  .all-containers h3 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .all-containers h1 {
+    font-weight: 300;
+    font-size: 50px;
+  }
+
+  .info {
+    margin: auto 30px;
+  }
+  .details {
+    margin: auto 30px;
+  }
+
+  img {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  p,
+  h1,
+  h3,
+  span {
+    color: white;
+  }
+
+  .text p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    color: hsl(235, 45%, 61%);
+    transition-property: color;
+    transition-duration: 1s;
+  }
+
+  .name-container p {
+    font-family: "Rubik", sans-serif;
+  }
+  span {
+    display: block;
+    font-weight: 300;
+    font-size: 40px;
+  }
+
+  svg {
+    display: flex;
+    float: right;
+    height: 100px;
+    position: relative;
+  }
+
+  .nav h3 {
+    position: relative;
+    top: 20px;
+  }
+  .nav svg {
+    top: -10px;
+  }
+
+  .text p:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+  .time-container:hover {
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: hsl(226, 43%, 10%);
+  }
+  p,
+  h1,
+  h3,
+  span {
+    color: white;
+  }
+
+  .attribution {
+    position: relative;
+    top: 50px;
+    left: 40px;
+  }
+
+  .contact-container {
+    background-color: hsl(235, 46%, 20%);
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+  .name-container {
+    background-color: hsl(246, 80%, 60%);
+    width: 300px;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 20px;
+  }
+
+  .details p {
+    position: relative;
+    align-items: center;
+    top: 10px;
+  }
+
+  img {
+    width: 60px;
+    margin-top: 20px;
+  }
+
+  .text {
+    position: relative;
+    top: -25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .time-container {
+    background-color: hsl(235, 46%, 20%);
+    clear: right;
+    height: 120px;
+    border-radius: 15px;
+    position: relative;
+    top: -50px;
+    transition-property: background;
+    transition-duration: 1s;
+  }
+
+  .work-container {
+    background-color: hsl(15, 100%, 70%);
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .play-container {
+    background-color: hsl(195, 74%, 62%);
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .study-container {
+    background-color: hsl(348, 100%, 68%);
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .exercise-container {
+    background-color: hsl(145, 58%, 55%);
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .social-container {
+    background-color: hsl(264, 64%, 52%);
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .self-care-container {
+    background-color: hsl(43, 84%, 65%);
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  svg {
+    display: flex;
+    float: right;
+    height: 100px;
+    position: relative;
+  }
+
+  .all-containers p,
+  h1,
+  h3 {
+    font-family: "Rubik", sans-serif;
+  }
+
+  .all-containers p {
+    font-weight: 300;
+  }
+  .all-containers h3 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .all-containers h1 {
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  .text p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    color: hsl(235, 45%, 61%);
+    transition-property: color;
+    transition-duration: 1s;
+  }
+  .text p:hover {
+    color: white;
+    cursor: pointer;
+  }
+  .time-container:hover {
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+  }
+  .name-container p {
+    font-family: "Rubik", sans-serif;
+  }
+  span {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .info {
+    margin: auto 30px;
+  }
+  .info p {
+    position: relative;
+    left: 120px;
+    top: -35px;
+  }
+  .info h1 {
+    position: relative;
+    top: 10px;
+  }
+
+  nav h3 {
+    position: relative;
+    top: 30px;
+  }
+}
