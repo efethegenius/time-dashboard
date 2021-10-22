@@ -25,7 +25,7 @@ btn.forEach(function (btn) {
       studyPeriod.textContent = "Yesterday - 1hr";
       exerciseHours.textContent = "1hr";
       exercisePeriod.textContent = "Yesterday - 1hr";
-      socialHours.textContent = "1hrs";
+      socialHours.textContent = "1hr";
       socialPeriod.textContent = "Yesterday - 3hrs";
       selfCareHours.textContent = "0hrs";
       selfCarePeriod.textContent = "Yesterday - 1hr";
