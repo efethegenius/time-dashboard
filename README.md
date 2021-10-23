@@ -40,7 +40,7 @@ Mobile view
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-using-css-grid-3wjhFhXhi)
-- Live Site URL: [Live](timedashboard015.netlify.app)
+- Live Site URL: [Live](https://timedashboard015.netlify.app/)
 
 ## My process
 
